@@ -64,3 +64,7 @@ migrations/
 /web/packages/ofetch/node_modules/*
 /web/packages/utils/node_modules/*
 /web/.pnpm-store/*
+
+# 本地环境变量（含 SECRET_KEY），勿提交
+.env
+.env.local
